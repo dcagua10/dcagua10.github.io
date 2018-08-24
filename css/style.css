@@ -16,12 +16,9 @@ body,
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   min-width: 970px;
-.photo{
-  border-radius: 50%;
-    display: block;
-    margin: 20px auto 10px auto;
 }
- 
+
+
 /* Don't let the lead text change font-size. */
 .lead {
   font-size: 16px;
@@ -30,7 +27,11 @@ body,
 /* Finesse the page header spacing */
 .page-header {
   margin-bottom: 30px;
+}
+
+.page-header h2{
   text-align: center;
+
 }
 
 .page-header p
@@ -40,6 +41,12 @@ body,
 }
 .page-header .lead {
   margin-bottom: 10px;
+}
+
+.photo{
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 10px auto;
 }
 
 
