@@ -9,15 +9,19 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
+  font-family: "Times New Roman";
 }
 
 body,
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   min-width: 970px;
+.photo{
+  border-radius: 50%;
+    display: block;
+    margin: 20px auto 10px auto;
 }
-
-
+ 
 /* Don't let the lead text change font-size. */
 .lead {
   font-size: 16px;
@@ -63,15 +67,10 @@ body,
   text-align: center;
   vertical-align: baseline;
 }
-.col-xs-4 h4,p
-{
-  font-family: serif;
-  color: black;
-}
+
 .col-xs-4 p
 {
   text-align: justify;
-  font-size: 34;
 }
 
 .container .navbar-header,
