@@ -5,6 +5,7 @@
  */
 
 /* Account for fixed navbar */
+
 body {
   padding-top: 70px;
   padding-bottom: 30px;
@@ -16,9 +17,6 @@ body,
   min-width: 970px;
 }
 
-.checked {
-    color: orange;
-}
 
 /* Don't let the lead text change font-size. */
 .lead {
@@ -28,6 +26,13 @@ body,
 /* Finesse the page header spacing */
 .page-header {
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.page-header p
+{
+  text-align: justify;
+  color:black;
 }
 .page-header .lead {
   margin-bottom: 10px;
@@ -46,6 +51,7 @@ body,
   max-width: none !important;
 }
 
+
 /* Demonstrate the grids */
 .col-xs-4 {
   padding-top: 15px;
@@ -56,6 +62,16 @@ body,
   border: 0px solid rgba(86,61,124,.2);
   text-align: center;
   vertical-align: baseline;
+}
+.col-xs-4 h4,p
+{
+  font-family: serif;
+  color: black;
+}
+.col-xs-4 p
+{
+  text-align: justify;
+  font-size: 34;
 }
 
 .container .navbar-header,
