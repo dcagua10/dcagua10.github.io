@@ -1,14 +1,13 @@
-/* Seccion de JS */
-"use strict.";
-
-/* Funcion de profile */
-$("#profile").click(function()
+/* Codigo Js */
+var pf = document.getElementById("profileP")
+pf.click(function()
 {
-  var x = $("#profile");
-  if (x.attr("src")==='img/Profile.jpg'){
-  x.attr("src","img/Profile.jpg");
-  }
-  else{
-  x.attr("src","img/ube.png");
-  }
+	if(pf.attr("src")==="img/Profile.jpg")
+	{
+		pf.attr("src","img/Profile.jpg")
+	}
+	else
+	{
+		pf.attr("src","img/ube.png")
+	}
 });
