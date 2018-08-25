@@ -1,13 +1,14 @@
 /* Codigo Js */
-var pf = document.getElementById("profileP")
-pf.click(function()
+
+function change()
 {
-	if(pf.attr("src")==="img/Profile.jpg")
+	if($('#pp').attr("src")==="/img/Profile.jpg")
 	{
-		pf.attr("src","img/Profile.jpg")
+	   $('#pp').attr("src","/img/ube.png");   
 	}
 	else
 	{
-		pf.attr("src","img/ube.png")
+	   $('#pp').attr("src","/img/Profile.jpg");
 	}
-});
+	
+}
