@@ -45,7 +45,7 @@ body,
 
 .photo{
     border-radius: 50%;
-    display: block;
+    display:block;
     margin: 20px auto 10px auto;
 }
 
