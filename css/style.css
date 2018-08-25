@@ -7,8 +7,8 @@
 /* Account for fixed navbar */
 
 body {
-  padding-top: 20px; /*70 px */
-  padding-bottom: 30px;
+  padding-top: 0px; /*70 px */
+  padding-bottom: 0px;
   font-family: "Times New Roman";
 }
 
@@ -25,19 +25,47 @@ body,
 }
 
 /* Finesse the page header spacing */
+
 .page-header {
+   background-color: black;
+   color: white;
+   border: solid;
+   border-width: 1px;
+   border-color: black;
+
+  margin-bottom: 0px;
+  font-family: "Times New Roman";
+}
+
+.cd {
+     background-color: black;
+   color: white;
+   border: solid;
+   border-width: 1px;
+   border-color: black;
+
   margin-bottom: 30px;
+  font-family: "Times New Roman";
+
+}
+
+.cd h3 {
+  text-align: justify;
+  margin-left: 150px;
+}
+.cd span,h4
+{
+  font-size: 15px
 }
 
 .page-header h2{
   text-align: center;
-
 }
-
 .page-header p
 {
   text-align: justify;
-  color:black;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .page-header .lead {
   margin-bottom: 10px;
@@ -78,6 +106,11 @@ body,
 .col-xs-4 p
 {
   text-align: justify;
+}
+
+.col-xs-4 h4
+{
+  font-size: 20px;
 }
 
 .container .navbar-header,
