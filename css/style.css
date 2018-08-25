@@ -26,11 +26,18 @@ body,
 
 /* Finesse the page header spacing */
 
+.intro{
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .page-header {
-   background-color: black;
-   color: white;
+   /*background-color: black;*/
+   
+   color: black;
    border: solid;
-   border-width: 1px;
+   border-width: 0px;
    border-color: black;
 
   margin-bottom: 0px;
@@ -174,21 +181,21 @@ body,
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #333;
+  color: black;
 }
 .navbar .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar .navbar-nav .open .dropdown-menu > li > a:focus,
 .navbar .navbar-nav .open .dropdown-menu > .active > a,
 .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #fff !important;
-  background-color: #428bca !important;
+  color: black!important;
+  background-color: black !important;
 }
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a,
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-  color: #999 !important;
-  background-color: transparent !important;
+  color: black !important;
+  background-color: black !important;
 }
 
 /* Undo form expansion */
